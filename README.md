@@ -2,6 +2,8 @@
 
 ### CREATE - POST
 localhost:8080/books
+<br />
+####Inserir
 ```
     {
         "name": "Steve Jobs",
@@ -11,6 +13,8 @@ localhost:8080/books
     
 ### LIST - GET
 localhost:8080/books
+<br />
+####Retorno
 ```
   [
     {
@@ -20,3 +24,32 @@ localhost:8080/books
     }
   ]      
 ```
+
+### LIST BY ID - GET
+localhost:8080/books/getBook?id=1
+<br />
+####Retorno
+```
+  [
+    {
+       "id": 1,
+       "name": "Steve Jobs",
+        "price": 100
+    }
+  ]      
+```
+
+### EDIT - GET
+localhost:8080/books?id=1
+<br />
+####Inserir 
+```  
+    {
+        "name": "Steve Jobs",
+        "price": 100
+    }  
+```
+
+### DELETE - GET
+localhost:8080/books?id=1
+
