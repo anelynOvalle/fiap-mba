@@ -3,7 +3,7 @@
 ### CREATE - POST
 localhost:8080/books
 <br />
-Inserir
+Insert
 ```
     {
         "name": "Steve Jobs",
@@ -14,7 +14,7 @@ Inserir
 ### LIST - GET
 localhost:8080/books
 <br />
-Retorno
+Return
 ```
   [
     {
@@ -28,7 +28,7 @@ Retorno
 ### LIST BY ID - GET
 localhost:8080/books/getBook?id=1
 <br />
-Retorno
+Return
 ```
   [
     {
@@ -42,7 +42,7 @@ Retorno
 ### EDIT - GET
 localhost:8080/books?id=1
 <br />
-Inserir 
+Insert 
 ```  
     {
         "name": "Steve Jobs",
