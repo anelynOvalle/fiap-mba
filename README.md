@@ -39,7 +39,7 @@ Return
   ]      
 ```
 
-### EDIT - GET
+### EDIT - PUT
 localhost:8080/books?id=1
 <br />
 Insert 
@@ -50,6 +50,6 @@ Insert
     }  
 ```
 
-### DELETE - GET
+### DELETE - DELETE
 localhost:8080/books?id=1
 
